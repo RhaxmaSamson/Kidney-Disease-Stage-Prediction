@@ -7,7 +7,7 @@ This project aims to develop a predictive model for the early detection and pred
 
 ## Dataset
 
-The dataset used for this project is sourced from [provide dataset source/link]. It contains a collection of demographic, clinical, and laboratory data from patients, including features such as age, blood pressure, serum creatinine levels, and urine protein levels. The target variable is the presence or absence of kidney disease.
+The dataset used for this project is sourced from https://www.kaggle.com/datasets/mansoordaku/ckdisease. It contains a collection of demographic, clinical, and laboratory data from patients, including features such as age, blood pressure, serum creatinine levels, and urine protein levels. The target variable is the presence or absence of kidney disease.
 
 ## Methodology
 

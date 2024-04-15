@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* Replace with your image path */
+    background-image: url('bg1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  header {
+    background-color: rgba(0, 0, 0, 0.5); /* Add transparency to the header */
+    color: #fff;
+    padding: 10px; /* Reduce padding */
+    text-align: center;
+  }
+  
+  main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center elements horizontally */
+  }
+  
+  .prediction-container {
+    background-color: #fff; /* Adjust background color as needed */
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 4px; /* Rounded corners */
+    padding: 20px; /* Add padding */
+    margin-top: 20px; /* Add some space above the box */
+    text-align: center; /* Center the content within the box */
+    width: 50%; /* Adjust width as needed */
+  }
+  
+  h1 {
+    margin-bottom: 10px; /* Add some space below the heading */
+  }
+  
+  /* Style input fields with consistent spacing */
+  .prediction-container input[type="number"],
+  .prediction-container select {
+    width: 100%; /* Adjust width as needed */
+    padding: 5px; /* Reduce padding */
+    margin-bottom: 15px; /* Space between fields using margin */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+  }
+  
+  button[type="submit"] {
+    background-color: #11366d;
+    color: white;
+    padding: 8px 16px; /* Reduce padding */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  #predictionResult {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #1f1e1e; /* Adjust text color for better visibility */
+  }

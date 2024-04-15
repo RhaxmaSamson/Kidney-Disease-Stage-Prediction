@@ -26,6 +26,8 @@ We employed a machine learning approach to develop the predictive model for kidn
    - Training the selected model on the training data
    - Evaluating the model's performance on the testing data using appropriate metrics (e.g., accuracy, precision, recall, F1-score)
 
+## Before running create a virtual environment in your pc
+
 ## Results
 
 The predictive model achieved Stage of kidney disease, indicating its effectiveness in predicting kidney disease.
